@@ -1,10 +1,5 @@
-<form action="">
-  <fieldset>
-    <label for="name"> Nombre </label>
-    <br />
-    <input type="text" name="name" id="name" />
-  </fieldset>
-  <fieldset>
-    <button type="submit">Submit</button>
-  </fieldset>
-</form>
+<div>Counter: {{ counter }}</div>
+<div>
+  <button (click)="addCounter()">Add Counter</button>
+  <button (click)="removeCounter()">Remove Counter</button>
+</div>
